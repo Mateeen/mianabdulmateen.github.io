@@ -44,7 +44,7 @@
                     <!-- Start Mainmanu Nav -->
                     <ul class="primary-menu nav nav-pills">
                         <li class="nav-item current"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#features">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
                         <!--                        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>-->
@@ -95,7 +95,7 @@
         <div class="content">
             <ul class="primary-menu nav nav-pills onepagenav">
                 <li class="nav-item current"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Projects</a></li>
 
                 <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Services</a></li>
                 <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
@@ -220,18 +220,20 @@
 
 
                                         </ul>
-
-
-                                        <div class="description" style="margin-top: 10pt">
-                                            <!--                                            <span class="title">Contact</span>-->
-
-                                            <div class=""
-                                                 style="display: flex; flex-direction: column; gap: 1px; color: black">
-                                                <span class="phone"><a href="tel:01941043264" style="color: black; text-decoration: underline;">+92 322 7835815</a></span>
-                                                <span class="mail"><a href="mailto:admin@example.com"
-                                                                      style="color: black; text-decoration: underline;">mianabdulmateen93@gmail.com</a></span>
+                                        
+                                        <div class="description" style="margin-top: 15px;">
+                                            <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                                                <i data-feather="phone" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+                                                <a href="tel:+923227835815" style="color: #1e2125; text-decoration: none; font-size: 14px; transition: all 0.3s ease;" 
+                                                   onmouseover="this.style.color='#f9004d'; this.style.textDecoration='underline';" 
+                                                   onmouseout="this.style.color='#1e2125'; this.style.textDecoration='none';">+92 322 7835815</a>
                                             </div>
-
+                                            <div style="display: flex; align-items: center;">
+                                                <i data-feather="mail" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+                                                <a href="mailto:mianabdulmateen93@gmail.com" style="color: #1e2125; text-decoration: none; font-size: 14px; transition: all 0.3s ease;"
+                                                   onmouseover="this.style.color='#f9004d'; this.style.textDecoration='underline';" 
+                                                   onmouseout="this.style.color='#1e2125'; this.style.textDecoration='none';">mianabdulmateen93@gmail.com</a>
+                                            </div>
                                         </div>
 
 
@@ -282,7 +284,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <!--                        <span class="subtitle">Visit my portfolio and keep your feedback</span>-->
-                        <h2 class="title">Portfolio</h2>
+                        <h2 class="title">Projects</h2>
                     </div>
                 </div>
             </div>
@@ -712,7 +714,7 @@
             </div>
             <div class="row mt--45">
                 <div class="col-lg-12">
-                    <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                    <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist" style="justify-content: center;">
 
                         <li class="nav-item">
                             <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education"
@@ -826,7 +828,7 @@
                                                         <div class="heading">
                                                             <div class="title">
                                                                 <h4>Senior Mobile Application Developer</h4>
-                                                                <span>Coco Studios (2024 - Present)</span>
+                                                                <span>Vertechx Technologies UAE (2022 - Present)</span>
                                                             </div>
 
                                                         </div>
@@ -841,7 +843,7 @@
                                                         <div class="heading">
                                                             <div class="title">
                                                                 <h4>Senior Mobile Application Developer</h4>
-                                                                <span>Vertechx Technologies (2020 - 2024)</span>
+                                                                <span>Coco Studios (2019 - 2022)</span>
                                                             </div>
 
                                                         </div>
@@ -857,7 +859,7 @@
                                                             <div class="title">
                                                                 <h4>Junior Android Developer</h4>
                                                                 <span>KewlApps (2017 -
-                                                                2020)</span>
+                                                                2019)</span>
                                                             </div>
 
                                                         </div>
@@ -1372,6 +1374,45 @@
             </div>
             <div class="row" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
                 <div class="col-lg-12">
+                    <style>
+                        .testimonial-activation .testimonial {
+                            min-height: 400px !important;
+                        }
+                        .testimonial .title-area {
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            align-items: flex-start !important;
+                            gap: 20px !important;
+                        }
+                        .testimonial .title-info {
+                            flex: 1 !important;
+                            min-width: 0 !important;
+                        }
+                        .testimonial .rating {
+                            flex-shrink: 0 !important;
+                            white-space: nowrap !important;
+                            display: flex !important;
+                            gap: 2px !important;
+                        }
+                        .testimonial .rating img {
+                            width: 16px !important;
+                            height: 16px !important;
+                        }
+                        .testimonial-activation .testimonial * {
+                            user-select: text !important;
+                            -webkit-user-select: text !important;
+                            -moz-user-select: text !important;
+                            -ms-user-select: text !important;
+                        }
+                        .testimonial .discription,
+                        .testimonial .title {
+                            user-select: text !important;
+                            -webkit-user-select: text !important;
+                            -moz-user-select: text !important;
+                            -ms-user-select: text !important;
+                            cursor: text !important;
+                        }
+                    </style>
                     <div class="testimonial-activation testimonial-pb mb--30">
 
 
@@ -3419,6 +3460,12 @@
 
                                 <div class="button-group mt--20">
 
+                                    <a href="https://duckresume.com"
+                                       class="rn-btn"
+                                       target="_blank">
+                                        <span>Link</span>
+                                        <i data-feather="chevron-right"></i>
+                                    </a>
 
                                 </div>
 
